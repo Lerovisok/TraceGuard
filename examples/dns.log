@@ -1,0 +1,4 @@
+#fields	ts	uid	id.orig_h	id.resp_h	query	qtype_name	rcode_name	ttl
+1717020000.0	12345	192.168.1.105	8.8.8.8	a3f9k2l8m4n1.payload.stealer[.]com	TXT	NOERROR	60
+1717020001.0	12346	192.168.1.105	8.8.8.8	x9k2m4n8q1.data-exfil[.]com	NULL	NOERROR	30
+1717020002.0	12347	192.168.1.105	1.1.1.1	update.malware[.]github.io	A	NOERROR	1
