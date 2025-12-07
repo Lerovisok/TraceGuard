@@ -1,0 +1,18 @@
+# TraceGuard Configuration
+thresholds:
+  dns_tunneling:
+    min_subdomain_length: 50
+    min_entropy: 4.2
+    suspicious_record_types: ["TXT", "NULL"]
+  fast_flux:
+    min_ip_count: 5
+    max_ttl_seconds: 180
+  dga:
+    max_vowel_ratio: 0.32
+    min_domain_length: 8
+  tls_c2:
+    suspicious_snis:
+      - "*.github.io"
+      - "*.firebaseio.com"
+      - "*.azurewebsites.net"
+    letscrypt_issuer: "Let's Encrypt"
