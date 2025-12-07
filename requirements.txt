@@ -1,0 +1,5 @@
+tldextract==3.6.0
+dnspython==2.6.1
+PyYAML==6.0.1
+pandas==2.2.2
+requests==2.31.0
