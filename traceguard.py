@@ -19,7 +19,7 @@ def main():
         config = yaml.safe_load(f)
 
     alerts = []
-
+ 
     # Parse DNS logs
     dns_records = parse_zeek_dns("examples/dns.log")
     dns_by_domain = defaultdict(list)
