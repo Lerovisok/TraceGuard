@@ -10,3 +10,4 @@ def detect_cloud_abuse(domain: str) -> bool:
         if domain.endswith(cd):
             return True
     return False
+ 
