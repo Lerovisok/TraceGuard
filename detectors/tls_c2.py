@@ -13,3 +13,4 @@ def detect_tls_c2(record: dict, config: dict) -> bool:
                 if sni.endswith(suffix):
                     return True
     return False
+ 
