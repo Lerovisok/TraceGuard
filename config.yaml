@@ -16,3 +16,4 @@ thresholds:
       - "*.firebaseio.com"
       - "*.azurewebsites.net"
     letscrypt_issuer: "Let's Encrypt"
+ 
