@@ -7,3 +7,4 @@ def detect_fast_flux(domain_ list, config: dict) -> bool:
     if max(ttls) > config["thresholds"]["fast_flux"]["max_ttl_seconds"]:
         return False
     return True
+ 
