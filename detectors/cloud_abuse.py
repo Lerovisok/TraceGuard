@@ -11,3 +11,4 @@ def detect_cloud_abuse(domain: str) -> bool:
             return True
     return False
  
+ 
