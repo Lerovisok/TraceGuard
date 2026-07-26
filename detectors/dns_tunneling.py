@@ -14,3 +14,4 @@ def detect_dns_tunneling(record: dict, config: dict) -> bool:
     if entropy < thresholds["min_entropy"]:
         return False
     return True
+ 
