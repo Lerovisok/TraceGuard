@@ -23,3 +23,4 @@ def parse_zeek_ssl(log_path: str):
         df.columns = cols
         return df.to_dict(orient="records")
     return []
+ 
