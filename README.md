@@ -18,7 +18,7 @@ All detections are mapped to **MITRE ATT&CK** and designed for **defensive cyber
 > 📚 **Want to understand how these evasion techniques work?**  
 > Read our in-depth technical guide:  
 > [How Hackers Erase Traces Using DNS Tunneling, SSL/TLS, and Fast Flux (2025)](https://data-encoder.com/hackers-erase-traces-with-dns-tunneling-ssl-tls-fast-flux-etc/)
- 
+  
 --- 
 
 ## 🔧 Features
