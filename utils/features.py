@@ -16,3 +16,4 @@ def vowel_ratio(domain: str) -> float:
         return 0.0
     vowel_count = sum(1 for c in clean if c in vowels)
     return vowel_count / len(clean)
+ 
