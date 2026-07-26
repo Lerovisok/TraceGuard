@@ -14,3 +14,4 @@ def detect_tls_c2(record: dict, config: dict) -> bool:
                     return True
     return False
  
+ 
