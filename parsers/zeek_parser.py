@@ -12,7 +12,7 @@ def parse_zeek_dns(log_path: str):
         df.columns = cols
         return df.to_dict(orient="records")
     return []
-
+ 
 def parse_zeek_ssl(log_path: str):
     if not os.path.exists(log_path):
         return []
