@@ -8,3 +8,4 @@ def detect_fast_flux(domain_ list, config: dict) -> bool:
         return False
     return True
  
+ 
