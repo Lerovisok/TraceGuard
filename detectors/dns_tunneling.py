@@ -15,3 +15,4 @@ def detect_dns_tunneling(record: dict, config: dict) -> bool:
         return False
     return True
  
+ 
