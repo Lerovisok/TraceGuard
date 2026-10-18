@@ -9,3 +9,4 @@ def detect_dga(domain: str, config: dict) -> bool:
     # Add more lexical checks if needed
     return True
  
+ 
