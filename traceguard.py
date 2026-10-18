@@ -9,7 +9,7 @@ from detectors.fast_flux import detect_fast_flux
 from detectors.dga import detect_dga
 from detectors.tls_c2 import detect_tls_c2
 from detectors.cloud_abuse import detect_cloud_abuse
-
+ 
 def main():
     if len(sys.argv) != 2:
         print("Usage: python traceguard.py <config.yaml>")
