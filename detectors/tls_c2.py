@@ -2,7 +2,7 @@ def detect_tls_c2(record: dict, config: dict) -> bool:
     sni = record.get("server_name", "")
     issuer = record.get("issuer", "")
     thresholds = config["thresholds"]["tls_c2"]
-    
+     
     if not sni or not issuer:
         return False
         
